@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr 06 12:08:07 2022
+# Process ID: 12248
+# Current directory: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10224 C:\Users\User\Desktop\Laborator AC\Lab 7\project_1\project_1.xpr
+# Log file: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/vivado.log
+# Journal file: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 778.961 ; gain = 116.234
+open_bd_design {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Successfully read diagram <design_1> from BD file <C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 807.535 ; gain = 28.574
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/ControlUnit.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/ControlUnit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/ExecutionUnit.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/ExecutionUnit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/InstrFetch.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/InstrFetch.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/InstructionDecode.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/InstructionDecode.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/MPG.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/MPG.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/RAM.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/RAM.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/SSD.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/SSD.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/test_env.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/new/test_env.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd" into library xil_defaultlib [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1]
+[Wed Apr 06 13:19:30 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Apr 06 13:20:11 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/.Xil/Vivado-12248-DESKTOP-RS8JNGD/dcp/test_env.xdc]
+Finished Parsing XDC File [C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/.Xil/Vivado-12248-DESKTOP-RS8JNGD/dcp/test_env.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1061.816 ; gain = 0.949
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1061.816 ; gain = 0.949
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 16 instances
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1213.457 ; gain = 332.504
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_bd_design {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 06 13:47:35 2022...

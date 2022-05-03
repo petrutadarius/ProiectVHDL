@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr 06 12:08:07 2022
+# Process ID: 12248
+# Current directory: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10224 C:\Users\User\Desktop\Laborator AC\Lab 7\project_1\project_1.xpr
+# Log file: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/vivado.log
+# Journal file: C:/Users/User/Desktop/Laborator AC/Lab 7/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.xpr}
+open_bd_design {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/User/Desktop/Laborator AC/Lab 7/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
